@@ -1,9 +1,27 @@
 def square(n: int) -> int:
+    """
+    Calcula el cuadrado de un numero.
+
+    Args:
+        n (int): El numero a elevar al cuadrado.
+
+    Returns:
+        int: El cuadrado del numero.
+    """
     return n * n
 
 def factorial(n: int) -> int:
+    """
+    Calcula el factorial de un numero.
+    
+    Args:
+        n (int): El numero a calcular el factorial.
+
+    Returns:
+        int: El factorial del numero.
+    """
     if n < 0:
-        raise ValueError("El factorial no está definido para números negativos.")
+        raise ValueError("El factorial no esta definido para numeros negativos.")
     if n == 0 or n == 1:
         return 1
     result = 1
