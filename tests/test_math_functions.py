@@ -3,7 +3,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from de_math_loz.math_functions import square, factorial, is_prime, gcd, lcm
+from math_functions import square, factorial, is_prime, gcd, lcm
 
 def test_square():
     assert square(2) == 4
