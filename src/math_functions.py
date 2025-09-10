@@ -8,7 +8,7 @@ def square(n: int) -> int:
     Returns:
         int: El cuadrado del numero.
     """
-    return n * n
+    return n
 
 
 def factorial(n: int) -> int:
