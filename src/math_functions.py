@@ -1,4 +1,13 @@
 def square(n: int) -> int:
+    """
+    Calcula el cuadrado de un numero.
+    
+    Args:
+        n (int): El numero a elevar al cuadrado.
+
+    Returns:
+        int: El cuadrado del numero.
+    """
     return n * n
 
 def factorial(n: int) -> int:
